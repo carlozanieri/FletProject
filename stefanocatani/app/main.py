@@ -335,4 +335,4 @@ async def main(page: ft.Page):
 
 
 if __name__ == "__main__":
-    ft.run(main, port=8550)
+    ft.run(main, port=8050)

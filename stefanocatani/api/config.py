@@ -15,7 +15,7 @@ from app_secrets import (
 )
 
 API_HOST = "0.0.0.0"
-API_PORT = 8889
+API_PORT = 8890
 
 # JWT
 JWT_ALGORITHM = "HS256"
