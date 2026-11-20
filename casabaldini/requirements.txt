@@ -2,5 +2,12 @@ fastapi
 uvicorn[standard] 
 psycopg2-binary 
 pydantic 
+
+pydantic[email]
 flet 
 httpx
+pyjwt
+passlib[bcrypt]
+
+django
+requests
