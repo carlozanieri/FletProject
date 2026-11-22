@@ -17,7 +17,7 @@ api = APIClient()
 
 async def main(page: ft.Page):
 
-    page.title = "stefanocatani"
+    page.title = "Stefano Catani"
     page.theme_mode = ft.ThemeMode.LIGHT
     page.padding = 20
     page.scroll = ft.ScrollMode.AUTO
