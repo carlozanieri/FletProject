@@ -85,7 +85,7 @@ def build_header(
             # Colonna sinistra: Logo
             ft.Container(
                 content=ft.TextButton(
-                    "Stefano Catani" \
+                    "Stefano Catani", 
                     "Scienza & Coscienza",
                    
                     on_click=on_home_click,
