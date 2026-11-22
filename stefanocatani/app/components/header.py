@@ -86,13 +86,19 @@ def build_header(
             ft.Container(
                 content=ft.TextButton(
                     "Stefano Catani", 
-                    "Scienza & Coscienza",
-                   
+                                       
                     on_click=on_home_click,
                     style=ft.ButtonStyle(color=ft.Colors.BROWN_700),
                 ),
                 col={"xs": 6, "sm": 6, "md": 6}, # Prende metà schermo su mobile
             ),
+            content=ft.TextButton(
+                               
+                                "Scienza & Coscienza",
+                               
+                                on_click=on_home_click,
+                                style=ft.ButtonStyle(color=ft.Colors.BROWN_700),
+                            ),
             # Colonna destra: Carrello + Menu Utente
             ft.Container(
                 content=ft.Row([
